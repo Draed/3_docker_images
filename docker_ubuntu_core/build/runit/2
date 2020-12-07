@@ -1,0 +1,5 @@
+#!/bin/sh
+# Author : Ottomatic
+# Description : runit runs /etc/runit/2, which should not return until system shutdown; if it crashes, or exits 111, it will be restarted
+# runsvdir - starts and monitors a collection of runsv(8) process
+/usr/bin/runsvdir -P /etc/service

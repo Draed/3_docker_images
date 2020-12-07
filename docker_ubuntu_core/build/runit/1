@@ -1,0 +1,5 @@
+#!/bin/sh
+# Author : Ottomatic
+# Description : runit runs /etc/runit/1 and waits for it to terminate. 
+# run-parts runs all the executable files named within constraints described below, found in directory
+/bin/run-parts --verbose --exit-on-error /etc/runit/1.d
