@@ -1,6 +1,8 @@
 # AUTHOR:         Ottomatic
 # DESCRIPTION:    syslog Image
 
+## docker build -t Ottomatic/syslog .
+
 FROM ottomatic/ubuntu-core:latest
 LABEL maintainer="Ottomatic"
 

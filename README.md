@@ -1,7 +1,7 @@
 # docker images
 
 This repository regroup all my docker images. 
-I try my best to not depend on someone else images's and use official docker images.
+I try my best to not depend on someone else images's and/or use official docker images.
 
 ## architecture and description :
 
